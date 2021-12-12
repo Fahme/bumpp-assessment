@@ -47,6 +47,7 @@ sample :
 
 > **PUT https://bumpp-assessment.herokuapp.com/members/:id**
 ```
+BODY :
 {
 	"overview: {
 		"job_title": "singer"
@@ -57,4 +58,4 @@ sample :
 
 We provide a design to play with this data @ [Figma designs](https://www.figma.com/file/mkP9uv5A0kO3eY2msu128B/Bumpp-Web-Technical-Assessment?node-id=0:1)
  
-We assume you'll be able to make it nice, visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable.
+We assume you'll be able to make it nice, visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable on different devices.
