@@ -73,4 +73,4 @@ Status codes returned from backend are :
 
 We provide a design to play with this data @ [Figma designs](https://www.figma.com/file/mkP9uv5A0kO3eY2msu128B/Bumpp-Web-Technical-Assessment?node-id=0:1)
 
-All the specs for implementing the desings are in the docs, we also assume you'll be able to make it look nice i.e. visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable on different devices.
+All the specs for implementing the designs are in the docs, we also assume you'll be able to make it look nice i.e. visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable on different devices.
