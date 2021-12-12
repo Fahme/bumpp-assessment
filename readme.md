@@ -27,20 +27,20 @@ sample :
                 "type": "facebook",
                 "title": "facebook.com/test",
                 "url": "https://facebook.com/test"
-                },
-                {
-                    "type": "linkedin",
-                    "title": "linkedin.com/test",
-                    "url": "https://linkedin.com/test"
-                    }]
             },
-            "user": {
-                "first_name": "Michael",
-                "last_name": "Jackson",
-                "avatar": "https://images.unsplash.com/photo-1577640905050-83665af216b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWljaGFlbCUyMGphY2tzb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            }
-        }]
-    }
+            {
+                "type": "linkedin",
+                "title": "linkedin.com/test",
+                "url": "https://linkedin.com/test"
+            }]
+        },
+        "user": {
+            "first_name": "Michael",
+            "last_name": "Jackson",
+            "avatar": "https://images.unsplash.com/photo-1577640905050-83665af216b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWljaGFlbCUyMGphY2tzb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        }
+    }]
+}
 ```
 
 > **PUT https://bumpp-assessment.herokuapp.com/members/:id**
@@ -55,7 +55,7 @@ You can send in the body
 }
 ```
 
-Response :
+Response - 200 OK :
 
 ```
 {
