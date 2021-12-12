@@ -32,7 +32,11 @@ sample :
                 "type": "linkedin",
                 "title": "linkedin.com/test",
                 "url": "https://linkedin.com/test"
-            }]
+            }],
+            "add_phone_number": {
+                "code": "+50",
+                "number": "165669534"
+            }
         },
         "user": {
             "first_name": "Michael",
