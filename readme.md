@@ -1,4 +1,3 @@
-
 ## Bumpp - Assessment
 
 Create a front-end application, where you can handle members object stored on a server-based application.
@@ -14,27 +13,26 @@ sample :
 ```
 {
     success: true,
-	 members: [
-        {
-            "id": "70f7e5f2-94a0-4688-80d2-14ba838dd074",
-            "overview": {
-                "job_title": "moon walker",
-                "email": "moonwalker@jackson.com",
-                "add_email": "just_beat_it@gmail.com",
-                "phone_number": {
-                    "code": "+50",
-                    "number": "165669534"
-                },
-                "social_links": [{
-                    "type": "facebook",
-                    "title": "facebook.com/test",
-                    "url": "https://facebook.com/test"
+    members: [{
+        "id": "70f7e5f2-94a0-4688-80d2-14ba838dd074",
+        "overview": {
+            "job_title": "moon walker",
+            "email": "moonwalker@jackson.com",
+            "add_email": "just_beat_it@gmail.com",
+            "phone_number": {
+                "code": "+50",
+                "number": "165669534"
+            },
+            "social_links": [{
+                "type": "facebook",
+                "title": "facebook.com/test",
+                "url": "https://facebook.com/test"
                 },
                 {
                     "type": "linkedin",
                     "title": "linkedin.com/test",
                     "url": "https://linkedin.com/test"
-                }]
+                    }]
             },
             "user": {
                 "first_name": "Michael",
@@ -46,16 +44,33 @@ sample :
 ```
 
 > **PUT https://bumpp-assessment.herokuapp.com/members/:id**
+
+You can send in the body
+
 ```
-BODY :
 {
 	"overview: {
 		"job_title": "singer"
-	} 
+	}
 }
 ```
+
+Response :
+
+```
+{
+    success: true
+}
+```
+
+Status codes returned from backend are :
+
+- 200 OK
+- 400 Bad Request
+- 404 Not Found
+
 ### Exercise
 
 We provide a design to play with this data @ [Figma designs](https://www.figma.com/file/mkP9uv5A0kO3eY2msu128B/Bumpp-Web-Technical-Assessment?node-id=0:1)
- 
-We assume you'll be able to make it nice, visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable on different devices.
+
+All the specs for implementing the desings are in the docs, we also assume you'll be able to make it look nice i.e. visually pleasing. You can use external CSS libraries or frameworks. if you have time work on making it responsive so it would be usable on different devices.
