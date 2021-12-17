@@ -8,6 +8,7 @@ const indexRouter = require("./routes/index");
 const membersRouter = require("./routes/members");
 
 const app = express();
+
 app.use(cors())
 
 // view engine setup
